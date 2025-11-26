@@ -81,7 +81,7 @@ SELECT last_name,salary,commission_pct
 FROM employees
 WHERE NOT commission_pct <=> NULL;
 
-#② LEAST() \ GREATEST 
+#② LEAST() \ GREATEST
 
 SELECT LEAST('g','b','t','m'),GREATEST('g','b','t','m')
 FROM DUAL;
